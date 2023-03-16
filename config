@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "orgin"]
+	url = https://github.com/venkygvsp/iplapp.git
+	fetch = +refs/heads/*:refs/remotes/orgin/*
+[branch "main"]
+	remote = orgin
+	merge = refs/heads/main
